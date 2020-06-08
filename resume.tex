@@ -1,0 +1,145 @@
+\documentclass[10pt]{article}
+\usepackage[margin=1.0in]{geometry}
+\setlength\parindent{0pt}
+\pagenumbering{gobble}
+
+\usepackage{paracol}
+\setlength{\columnsep}{4em}
+
+\usepackage{enumitem}
+
+\usepackage{xurl}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+}
+
+\newenvironment{itemize*}
+{\begin{itemize}[leftmargin=*]
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}}
+{\end{itemize}}
+
+\begin{document}
+
+% document should have 2 columns
+\noindent
+\parbox[t]{0.5\textwidth}{
+    {\sffamily\Huge Josie Thompson}\medskip\\
+    6502 27th Ave NE\\
+    Seattle, WA 98115\\
+    (253) 227-0840\\
+    josiest@cs.washington.edu
+}
+\vspace{12pt}
+\hrule
+
+\begin{paracol}{2}
+\section*{Education Experience}
+\textbf{Goal:} To earn a PhD in mathematics
+\begin{description}
+\item[University of Washington]~\\
+    Seattle, Washington\\
+    Working toward bachelor's\\
+    B.S. in computer science\\
+    B.A. in mathematics
+\item[Tacoma Community College]~\\
+    Tacoma, Washington\\
+    A.S. in electrical engineering
+\item[Tacoma School of the Arts]~\\
+    Tacoma, Washington\\
+    Songwriting and audio recording\\
+    High School Diploma
+\end{description}
+\section*{Work Experience}
+\begin{description}
+\item[Lab Assistant]~\\
+    University of Washington Herbarium\\
+    September 2019 - December 2019\\
+    \url{https://github.com/josiest/Flora-Data-Extraction}
+\end{description}
+\begin{itemize*}
+\item Used regular expressions to extract geographical information from text
+\item Used python to transform text data from pdfs to csv data
+\end{itemize*}
+
+\begin{description}
+\item[Internationally Certified Tutor]~\\
+    Computer science and mathematics\\
+    July 2018 - August 2019
+\end{description}
+\begin{itemize*}
+\item Helped students understand new concepts
+\item Encouraged critical thinking with leading questions
+\end{itemize*}
+
+\begin{description}
+\item[Supplementary Instruction (SI) Leader]~\\
+    Computer science\\
+    March 2019 - August 2019
+\end{description}
+\begin{itemize*}
+\item Planned and held SI sessions
+\item Encouraged collaborative learning
+\item Facilitated group discussion
+\end{itemize*}
+
+\switchcolumn
+\section*{Programming Experience}
+\begin{description}
+\item[Skilled in technologies]
+\end{description}
+\begin{itemize*}
+\item Python, C/C++, Lua
+\end{itemize*}
+
+\begin{description}
+\item[Hax and mapgen]~\\
+    \url{https://github.com/josiest/hax}\\
+    \url{https://github.com/josiest/mapgen}\\
+    Small libraries for working with hexagonal maps
+\end{description}
+\begin{itemize*}
+\item Implemented algorithms for working with unique mathematical norms in C++
+\item Wrote well-covered tests
+\item Wrote clear documentation
+\end{itemize*}
+
+\begin{description}
+\item[Pygtails Library]~\\
+    \url{https://pygtails.readthedocs.io/en/latest/}\\
+    Event-handler for Python's Pygame library
+\end{description}
+\begin{itemize*}
+\item Implemented event-handling interface
+\item Used Sphinx and reStructuredText to write and compile original tutorials and clear
+      documentation
+\item Published module to Python Package Index
+\end{itemize*}
+
+\begin{description}
+\item[404]~\\
+    \url{https://github.com/josiest/404}\\
+    Virtual art piece on the concept of Utopia
+\end{description}
+\begin{itemize*}
+\item Used lua and love2d to create a new media art piece reflecting on the definition of Utopia
+\item Used mathematical models of electricity and friction to emulate an imagined force
+\end{itemize*}
+
+\section*{Extracurricular Activities}
+
+\begin{description}
+\item[Programming Club]~\\
+    Treasurer\\
+    January 2018 - June 2018
+\end{description}
+\begin{itemize*}
+\item Presented a lecture on programming languages
+\item Held decisions on club purchases
+\item Helped in organizational decisions
+\end{itemize*}
+\end{paracol}
+
+\end{document}
