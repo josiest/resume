@@ -1,5 +1,11 @@
 \documentclass[10pt]{article}
 \usepackage[margin=1.0in]{geometry}
+\usepackage[utf8]{inputenc}
+
+\usepackage[sfdefault,extralight]{FiraSans}
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
+
 \setlength\parindent{0pt}
 \pagenumbering{gobble}
 
@@ -17,8 +23,7 @@
 
 \newenvironment{itemize*}
 {\begin{itemize}[leftmargin=*]
-    \setlength{\itemsep}{0pt}
-    \setlength{\parskip}{0pt}}
+    \setlength{\parskip}{0.5pt}}
 {\end{itemize}}
 
 \begin{document}
@@ -42,63 +47,29 @@
 \section*{Education Experience}
 \textbf{Goal:} To start a career in the software industry
 \begin{description}
-\itemsep0em
-\item[B.S. in Computer Science]~
-\item[B.A. in Mathematics]~\\
+\itemsep -0.5em
+\item[B.S. in Computer Science]
+\item[B.A. in Mathematics] \hfill \\
     University of Washington (2022)\\
     Seattle, Washington\\
     Working toward degrees
-\item[A.S. in Electrical and Computer Engineering]~
+\itemsep 0.5em
+\item[A.S. in Electrical and Computer Engineering] \hfill \\
     Tacoma Community College (2019)\\
     Tacoma, Washington
 \end{description}
-\section*{Work Experience}
-\begin{description}
-\item[Lab Assistant]~\\
-    University of Washington Herbarium\\
-    September 2019 - December 2019\\
-    \url{https://github.com/josiest/Flora-Data-Extraction}
-\end{description}
-\begin{itemize*}
-\item Used regular expressions to extract geographical information from text
-\item Used python to transform text data from pdfs to csv data
-\end{itemize*}
 
-\begin{description}
-\item[Internationally Certified Tutor]~\\
-    Computer science and mathematics\\
-    July 2018 - August 2019
-\end{description}
-\begin{itemize*}
-\item Helped students understand new concepts
-\item Encouraged critical thinking by asking leading questions
-\end{itemize*}
-
-\begin{description}
-\item[Supplementary Instruction (SI) Leader]~\\
-    Computer science\\
-    March 2019 - August 2019
-\end{description}
-\begin{itemize*}
-\item Planned SI sessions that encouraged collaborative learning
-\item Facilitated group discussion to reflect on new material
-\item Designed creative activities that reinforced class material
-\end{itemize*}
-
-\switchcolumn
 \section*{Programming Experience}
 \begin{description}
-\item[Skilled in technologies]
+\item[Skilled in technologies] \hfill \\
+Python, C/C++, Java, typescript
 \end{description}
-\begin{itemize*}
-\item Python, C/C++, Java, Mathematica, Matlab
-\end{itemize*}
 
 \begin{description}
-\item[Hax and mapgen]~\\
+\item[Hax and mapgen] \hfill \\
     \url{https://github.com/josiest/hax}\\
     \url{https://github.com/josiest/mapgen}\\
-    Small libraries for working with hexagonal maps
+    Small libraries for working with hex maps
 \end{description}
 \begin{itemize*}
 \item Implemented algorithms for working with unique mathematical norms in C++
@@ -107,7 +78,7 @@
 \end{itemize*}
 
 \begin{description}
-\item[Pygtails Library]~\\
+\item[Pygtails Library] \hfill \\
     \url{https://pygtails.readthedocs.io/en/latest/}\\
     Event-handler for Python's Pygame library
 \end{description}
@@ -118,28 +89,51 @@
 \item Published module to Python Package Index
 \end{itemize*}
 
-\begin{description}
-\item[404]~\\
-    \url{https://github.com/josiest/404}\\
-    Virtual art piece on the concept of Utopia
-\end{description}
-\begin{itemize*}
-\item Used lua and love2d to create a new media art piece reflecting on the definition of Utopia
-\item Used mathematical models of electricity and friction to emulate an imagined force
-\end{itemize*}
-
-\section*{Extracurricular Activities}
+\switchcolumn
+\section*{Work Experience}
 
 \begin{description}
-\item[Programming Club]~\\
-    Treasurer\\
-    January 2018 - June 2018
+\item[Teaching Assistant] \hfill \\
+    Software Design and Implementation \\
+    Paul Allen School of Computer Science \\
+    March 2021 - present
 \end{description}
 \begin{itemize*}
-\item Presented a lecture on programming languages
-\item Held decisions on club purchases
-\item Helped in organizational decisions
+\item Used console applications to publish course assignments within a tight schedule
+\item Managed organization for grading assignments for a class of nearly three
+      hundred students
+\item Resolved dozens of special case problems with student homework
+      submissions per week
 \end{itemize*}
+
+\begin{description}
+\item[Research Assistant] \hfill \\
+    Robot Learning Lab \\
+    Paul Allen School of Computer Science \\
+    March 2021 - present
+\end{description}
+\begin{itemize*}
+\item Read through many recent peer-reviewed papers in order to have a good
+      grasp of the problem at hand
+\item Implemented complex algorithms in order to further push knowledge of the
+      concepts in these research papers
+\item Used advanced machine learning libraries in python to conduct experiments
+      on the concepts we studied
+\item Wrote extensive documentation and established organized project structure
+      in order to maintain an practical environment
+\end{itemize*}
+
+\begin{description}
+\item[Lab Assistant] \hfill \\
+    University of Washington Herbarium\\
+    September 2019 - December 2019\\
+    \url{https://github.com/josiest/Flora-Data-Extraction}
+\end{description}
+\begin{itemize*}
+\item Used regular expressions to extract geographical information from text
+\item Used python to transform text data from pdfs to csv data
+\end{itemize*}
+
 \end{paracol}
 
 \end{document}
