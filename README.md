@@ -12,7 +12,7 @@ josiest@cs.washington.edu
 
 **Goal:** To start a career in the software industry
 
-#### B.S. in Computer Science / B.A. in Mathematics
+### B.S. in Computer Science / B.A. in Mathematics
 
 University of Washington (2022)
 
@@ -20,7 +20,7 @@ Seattle, Washington
 
 Working toward degrees
 
-#### A.S. in Electrical and Computer Engineering
+### A.S. in Electrical and Computer Engineering
 
 Tacoma Community College (2019)
 
