@@ -1,5 +1,9 @@
 # Josie Thompson
 
+Gameplay Engineer
+
+Seattl, WA
+
 dot.slash.josie@gmail.com
 
 ## Education Experience
