@@ -1,35 +1,54 @@
 # Josie Thompson
 
-6502 27th Ave NE
-
-Seattle, WA 98115
-
-(253) 227-0840
-
-josiest@cs.washington.edu
+dot.slash.josie@gmail.com
 
 ## Education Experience
 
-**Goal:** To start a career in the software industry
-
-### B.S. in Computer Science / B.A. in Mathematics
+### B.S. in Computer Science
 
 University of Washington (2022)
 
 Seattle, Washington
 
-Working toward degrees
+## Work Experience
 
-### A.S. in Electrical and Computer Engineering
+### Unreal Gameplay Engineer
 
-Tacoma Community College (2019)
+Timberline Studio Inc.
 
-Tacoma, Washington
+April 2022 - November 2023
+- Contributed to design and implementation of tech systems for various mechanics of an rpg video game, such as item drops and quests
+- Rapidly prototyped and iterated on important UI features such as menus, notifications and item information
+- Exercised skills in clear communication of goals, problems and research into potential solutions
+
+### Teaching Assistant
+
+Software Design and Implementation
+
+Paul Allen School of Computer Science
+
+March 2021 - September 2021
+- Used console applications to publish course assignments within a tight schedule
+- Managed organization for grading assignments for a class of nearly three hundred students
+- Resolved dozens of special case problems with student homework submissions per week
+
+### Research Assistant
+
+Robot Learning Lab
+
+Paul Allen School of Computer Science
+
+March 2021 - July 2021
+
+- Read through many recent peer-reviewed papers in order to have a good grasp of the problem at hand
+- Implemented complex algorithms in order to further push knowledge of the concepts in these research papers
+- Used advanced machine learning libraries in python to conduct experiments on the concepts we studied
+- Wrote extensive documentation and established organized project structure in order to maintain a practical environment
 
 ## Programming Experience
 #### Skilled in technologies
    
-   Python, C/C++, Java, typescript
+   C++, Unreal, Python, Java, typescript
 
 ### Hax and mapgen
 
@@ -51,41 +70,3 @@ Cleaner event-handling for Pygame
 - Impelemented a small-scoped event-handling interface to reflect more modern game development technologies like Unity
 - Used Sphinx and reStructuredText to write and compile original tutorials and clear documentation
 - Used python's packaging libraries to publish the module to the official package manager system
-
-## Work Experience
-
-### Teaching Assistant
-
-Software Design and Implementation
-
-Paul Allen School of Computer Science
-
-March 2021 - present
-- Used console applications to publish course assignments within a tight schedule
-- Managed organization for grading assignments for a class of nearly three hundred students
-- Resolved dozens of special case problems with student homework submissions per week
-
-### Research Assistant
-
-Robot Learning Lab
-
-Paul Allen School of Computer Science
-
-March 2021 - present
-
-- Read through many recent peer-reviewed papers in order to have a good grasp of the problem at hand
-- Implemented complex algorithms in order to further push knowledge of the concepts in these research papers
-- Used advanced machine learning libraries in python to conduct experiments on the concepts we studied
-- Wrote extensive documentation and established organized project structure in order to maintain a practical environment
-
-### Lab Assistant
-
-University of Washington Herbarium
-
-September 2019 - December 2019
-
-https://github.com/josiest/Flora-Data-Extraction
-
-- Used regular expressions to extract geographical information from text
-- Used python to transform text data from pdfs to csv data
-- Designed a console interface to easily be able to process multiple pdf files with relatively arbitrary directory structure
