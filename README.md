@@ -21,7 +21,7 @@ Seattle, Washington
 Timberline Studio Inc.
 
 April 2022 - November 2023
-- Contributed to design and implementation of tech systems for various mechanics of an rpg video game, such as item drops and quests
+- Contributed to design and implementation of tech systems in both C++ and Blueprint for various mechanics of an rpg video game, such as item drops and quests
 - Rapidly prototyped and iterated on important UI features such as menus, notifications and item information
 - Exercised skills in clear communication of goals, problems and research into potential solutions
 
