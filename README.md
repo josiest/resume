@@ -1,8 +1,8 @@
 # Josie Thompson
 
-Gameplay Engineer
+C++ Gameplay Engineer
 
-Seattl, WA
+Seattle, WA
 
 dot.slash.josie@gmail.com
 
