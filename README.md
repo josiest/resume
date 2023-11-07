@@ -54,6 +54,19 @@ March 2021 - June 2021
    
    C++, Unreal and Blueprint, Python, Java/C#, typescript
 
+### Ion
+
+https://github.com/josiest/ion
+
+https://github.com/josiest/ion/tree/main/examples
+
+A small-scoped library for rapidly prototyping games in SDL and EnTT using C++
+- Implemented basic game engine architecture for event-driven programming
+- Developed two example arcade games that use the ion library, as well as an
+  the EnTT ECS library
+- Currently working on making the library data-oriented with a tool for data
+  serialization using EnTT's reflection library
+
 ### Hax and mapgen
 
 https://github.com/josiest/hax
@@ -64,13 +77,3 @@ Small libraries for working with hex maps
 - Implemented algorithms for working with unique mathematical norms in C++
 - Used unit-test design to write well-covered tests
 - Wrote clear and easy-to-read documentation complete with visual examples and tutorials
-
-### Pygtails Library
-
-https://pygtails.readthedocs.io/en/latest/
-
-Cleaner event-handling for Pygame
-
-- Impelemented a small-scoped event-handling interface to reflect more modern game development technologies like Unity
-- Used Sphinx and reStructuredText to write and compile original tutorials and clear documentation
-- Used python's packaging libraries to publish the module to the official package manager system
