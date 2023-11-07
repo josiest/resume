@@ -31,7 +31,7 @@ Software Design and Implementation
 
 Paul Allen School of Computer Science
 
-March 2021 - September 2021
+March 2021 - December 2021
 - Used console applications to publish course assignments within a tight schedule
 - Managed organization for grading assignments for a class of nearly three hundred students
 - Resolved dozens of special case problems with student homework submissions per week
@@ -42,7 +42,7 @@ Robot Learning Lab
 
 Paul Allen School of Computer Science
 
-March 2021 - July 2021
+March 2021 - June 2021
 
 - Read through many recent peer-reviewed papers in order to have a good grasp of the problem at hand
 - Implemented complex algorithms in order to further push knowledge of the concepts in these research papers
@@ -52,7 +52,7 @@ March 2021 - July 2021
 ## Programming Experience
 #### Skilled in technologies
    
-   C++, Unreal, Python, Java, typescript
+   C++, Unreal and Blueprint, Python, Java/C#, typescript
 
 ### Hax and mapgen
 
