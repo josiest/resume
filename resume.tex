@@ -12,6 +12,7 @@
 \usepackage{paracol}
 \setlength{\columnsep}{4em}
 
+\usepackage{calc}
 \usepackage{enumitem}
 
 \usepackage{xurl}
@@ -29,22 +30,18 @@
 \begin{document}
 
 % document should have 2 columns
+\begin{paracol}{2}
 \noindent
 \parbox[t]{0.5\textwidth}{
     {\sffamily\Huge Josie Thompson}\medskip\\
+    \url{https://josiest.github.io}\\
     1729 Boylston Ave\\
     Seattle, WA 98122\\
     (253) 227-0840\\
     dot.slash.josie@gmail.com
 }
-\vspace{12pt}
-\hrule
+\switchcolumn
 
-% Suggestion: relevant experience section
-
-% Bullet points: challenge-action-result
-\begin{paracol}{2}
-\section*{Education Experience}
 \begin{description}
 \itemsep -0.5em
 \item[B.S. in Computer Science] \hfill \\
@@ -52,15 +49,67 @@
     Seattle, Washington
 \end{description}
 
-\section*{Programming Experience}
 \begin{description}
 \item[Skilled in technologies] \hfill \\
 C/C++, Unreal and Blueprint, Python, Java/C\#, javascript
 \end{description}
 
+\end{paracol}
+\vspace{12pt}
+\hrule
+
+\section*{Work Experience}
+
 \begin{description}
-\item[tess] \hfill \\
-    \url{https://github.com/josiest/tess}\\
+\item[Unreal Gameplay Engineer] Timberline Studio Inc.
+    \hfill April 2022 - November 2023
+\end{description}
+\begin{itemize*}
+\item Contributed to design and implementation of tech systems in both C++ and Blueprint for various mechanics of an rpg video game, such as item drops and quests
+\item Rapidly prototyped and iterated on important UI features such as menus, notifications and item info
+\item Exercised skills in clear communication of goals, problems and research into potential solutions
+\end{itemize*}
+\vspace{10pt}
+
+
+\begin{description}[leftmargin=!,
+                    labelwidth=\widthof{\bfseries Teaching Assistant}]
+
+\item[Teaching Assistant] Paul Allen School of Computer Science \hfill 
+    March 2021 - December 2021\\
+    Software Design and Implementation
+\end{description}
+\begin{itemize*}
+\item Used console applications to publish course assignments within a tight
+      schedule
+\item Managed organization for grading assignments for a class of nearly three
+      hundred students
+\item Resolved dozens of special case problems with student homework
+      submissions per week
+\end{itemize*}
+\vspace{10pt}
+
+\begin{description}[leftmargin=!,
+                    labelwidth=\widthof{\bfseries Teaching Assistant}]
+
+\item[Research Assistant] Paul Allen School of Computer Science \hfill
+    March 2021 - June 2021\\ Robot Learning Lab
+\end{description}
+\begin{itemize*}
+\item Read through many recent peer-reviewed papers in order to have a good
+      grasp of the problem at hand
+\item Implemented complex algorithms in order to further push knowledge of the
+      concepts in the papers
+\item Used advanced machine learning libraries in python to conduct experiments
+      on the concepts we studied
+\item Wrote extensive documentation and established organized project structure
+      in order to maintain a practical environment
+\end{itemize*}
+
+\section*{Personal Projects}
+\begin{description}[leftmargin=!,labelwidth=\widthof{\bfseries tess}]
+
+\item[tess] \url{https://github.com/josiest/tess}\\
     Small library for working with hex maps
 \end{description}
 \begin{itemize*}
@@ -69,10 +118,10 @@ C/C++, Unreal and Blueprint, Python, Java/C\#, javascript
 \item Wrote clear and easy-to-read documentation complete with visual examples
       and tutorials.
 \end{itemize*}
+\vspace{10pt}
 
-\begin{description}
-\item[ion library] \hfill \\
-    \url{https://github.com/josiest/ion}\\
+\begin{description}[leftmargin=!,labelwidth=\widthof{\bfseries ion library}]
+\item[ion library] \url{https://github.com/josiest/ion}\\
     A small-scoped framework for rapidly prototyping games with SDL using C++
 \end{description}
 \begin{itemize*}
@@ -83,52 +132,5 @@ C/C++, Unreal and Blueprint, Python, Java/C\#, javascript
 \item Wrote a series of interesting example games used to createively showcase
       the abilities of the library
 \end{itemize*}
-
-\switchcolumn
-\section*{Work Experience}
-
-\begin{description}
-\item[Unreal Gameplay Engineer] \hfill \\
-    Timberline Studio Inc. \\
-    April 2022 - November 2023
-\end{description}
-\begin{itemize*}
-\item Contributed to design and implementation of tech systems in both C++ and Blueprint for various mechanics of an rpg video game, such as item drops and quests
-\item Rapidly prototyped and iterated on important UI features such as menus, notifications and item information
-\item Exercised skills in clear communication of goals, problems and research into potential solutions
-\end{itemize*}
-
-
-\begin{description}
-\item[Teaching Assistant] \hfill \\
-    Software Design and Implementation \\
-    Paul Allen School of Computer Science \\
-    March 2021 - December 2021
-\end{description}
-\begin{itemize*}
-\item Used console applications to publish course assignments within a tight schedule
-\item Managed organization for grading assignments for a class of nearly three
-      hundred students
-\item Resolved dozens of special case problems with student homework
-      submissions per week
-\end{itemize*}
-
-\begin{description}
-\item[Research Assistant] \hfill \\
-    Robot Learning Lab \\
-    Paul Allen School of Computer Science \\
-    March 2021 - June 2021
-\end{description}
-\begin{itemize*}
-\item Read through many recent peer-reviewed papers in order to have a good
-      grasp of the problem at hand
-\item Implemented complex algorithms in order to further push knowledge of the
-      concepts in these research papers
-\item Used advanced machine learning libraries in python to conduct experiments
-      on the concepts we studied
-\item Wrote extensive documentation and established organized project structure
-      in order to maintain a practical environment
-\end{itemize*}
-\end{paracol}
 
 \end{document}
