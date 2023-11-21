@@ -1,6 +1,6 @@
 CC=pdflatex
 OUTPUT_DIR=build
-OUTPUT_NAME=Thompson-resume
+OUTPUT_NAME=Thompson-Resume
 
 main:
 	mkdir -p $(OUTPUT_DIR)
