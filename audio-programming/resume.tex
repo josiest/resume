@@ -1,0 +1,134 @@
+\documentclass[10pt]{article}
+\usepackage[margin=1.0in]{geometry}
+\usepackage[utf8]{inputenc}
+
+\usepackage[sfdefault,extralight]{FiraSans}
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
+
+\setlength\parindent{0pt}
+\pagenumbering{gobble}
+
+\usepackage{paracol}
+\setlength{\columnsep}{4em}
+
+\usepackage{enumitem}
+
+\usepackage{xurl}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+}
+
+\newenvironment{itemize*}
+{\begin{itemize}[leftmargin=*]
+    \setlength{\parskip}{0.5pt}}
+{\end{itemize}}
+
+\begin{document}
+
+% document should have 2 columns
+\noindent
+\parbox[t]{0.5\textwidth}{
+    {\sffamily\Huge Josie Thompson}\medskip\\
+    1729 Boylston Ave\\
+    Seattle, WA 98122\\
+    (253) 227-0840\\
+    dot.slash.josie@gmail.com
+
+    References available upon request
+}
+\vspace{12pt}
+\hrule
+
+% Suggestion: relevant experience section
+
+% Bullet points: challenge-action-result
+\setcolumnwidth{0.44\textwidth,0.54\textwidth}
+\begin{paracol}{2}
+\section*{Education Experience}
+\begin{description}
+\itemsep -0.5em
+\item[B.S. in Computer Science] \hfill \\
+    University of Washington (2022)\\
+    Seattle, Washington
+
+    Minor in Digital Arts and Experimental Media
+\end{description}
+
+\section*{Programming Experience}
+\begin{description}
+\item[Skilled in technologies] \hfill \\
+C/C++, Unreal and Blueprint, SuperCollider, Python, Java/C\#
+\end{description}
+
+\begin{description}
+\item[tess] \hfill \\
+    \url{https://github.com/josiest/tess}\\
+    Small library for working with hex maps
+\end{description}
+\begin{itemize*}
+\item Implemented algorithms for working with unique mathematical norms in C++
+\item Used unit-test design to write well-covered tests
+\item Wrote clear and easy-to-read documentation complete with visual examples
+      and tutorials.
+\end{itemize*}
+
+\begin{description}
+\item[ion library] \hfill \\
+    \url{https://github.com/josiest/ion}\\
+    A small-scoped framework for rapidly prototyping games with SDL using C++
+\end{description}
+\begin{itemize*}
+\item Designed and implemented handlers for various game resources such
+      as windows or images
+\item Implemented a small event-handling interface to allow for flexible
+      video game system implementation
+\item Wrote a series of interesting example games used to createively showcase
+      the abilities of the library
+\end{itemize*}
+
+\switchcolumn
+\section*{Work Experience}
+
+\begin{description}
+\item[Unreal Gameplay Engineer] \hfill \\
+    Timberline Studio Inc. \\
+    April 2022 - November 2023
+\end{description}
+\begin{itemize*}
+\item Contributed to design and implementation of tech systems in both C++ and Blueprint for various mechanics of an rpg video game, such as item drops and quests
+\item Rapidly prototyped and iterated on important UI features such as menus, notifications and item information
+\item Exercised skills in clear communication of goals, problems and research into potential solutions
+\end{itemize*}
+
+\begin{description}
+\item[SuperCollider Audio Programming Study] \hfill \\
+    DXARTS Audio Department\\
+    \url{https://github.com/josiest/SofaCollider}\\
+    September 2021 - July 2022
+\end{description}
+\begin{itemize*}
+\item Rapidly prototyped a basic library for processing multi-directional HRTF audio data with SuperCollider
+\item Formed creative solutions to interfacing between languages in order to
+    use existing tools to accelerate project development
+\item Wrote tools to read a write data to and from a standard HRTF format into
+    the SuperCollider runtime environment
+\end{itemize*}
+
+\begin{description}
+\item[Teaching Assistant] \hfill \\
+    Software Design and Implementation \\
+    Paul Allen School of Computer Science \\
+    March 2021 - December 2021
+\end{description}
+\begin{itemize*}
+\item Used console applications to publish course assignments within a tight schedule
+\item Managed organization for grading assignments for a class of nearly three
+      hundred students
+\item Resolved dozens of special case problems with student homework
+      submissions per week
+\end{itemize*}
+\end{paracol}
+\end{document}
