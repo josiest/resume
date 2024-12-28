@@ -1,0 +1,144 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage[utf8]{inputenc}
+
+\usepackage[sfdefault,extralight]{FiraSans}
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
+
+\setlength\parindent{0pt}
+\pagenumbering{gobble}
+
+\usepackage{paracol}
+\setlength{\columnsep}{4em}
+
+\usepackage{calc}
+\usepackage{enumitem}
+
+\usepackage{xurl}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+}
+
+\newenvironment{itemize*}
+{\begin{itemize}[leftmargin=*]
+    \setlength{\parskip}{0.5pt}}
+{\end{itemize}}
+
+\begin{document}
+
+% document should have 2 columns
+\begin{paracol}{2}
+\noindent
+\parbox[t]{0.5\textwidth}{
+    {\sffamily\Huge Josie Thompson}\medskip\\
+    dot.slash.josie@gmail.com \\
+    Seattle, WA 98122\\
+    (253) 227-0840
+}
+\switchcolumn
+
+\begin{description}
+\itemsep -0.5em
+\item[B.S. in Computer Science] \hfill \\
+    University of Washington (2022)\\
+    Seattle, Washington
+\end{description}
+
+\textbf{Portfolio:} \url{https://josiest.github.io}
+\end{paracol}
+\vspace{12pt}
+\hrule
+
+\section*{Work Experience}
+\begin{description}[leftmargin=!, labelwidth=\widthof{\bfseries Tutor}]
+\item[Tutor] Seattle Central College \hfill 
+    January 2024 - Present
+\end{description}
+\begin{itemize*}
+\item Asked leading questions to help students come to their own conclusions
+\item Helped students with problems in-class as well as at tutoring center
+\item Researched and compiled resources and reference sheets to help students solve problems
+\end{itemize*}
+\vspace{10pt}
+
+\begin{description}
+\item[Unreal Gameplay Engineer] Timberline Studio Inc.
+    \hfill April 2022 - November 2023
+\end{description}
+\begin{itemize*}
+\item Solved problems using different mathematical disciplines from 3D spatial reasoning to graph theory
+\item Communicated goals, problems and research into solutions on a daily basis
+\item Published in-depth documentation on how to use custom tools complite with tutorials, pictures and videos
+\item Wrote designer-friendly interfaces from C++ code into blueprint scripts
+\end{itemize*}
+\vspace{10pt}
+
+\begin{description}[leftmargin=!,
+                    labelwidth=\widthof{\bfseries Teaching Assistant}]
+
+\item[Teaching Assistant] Paul Allen School of Computer Science \hfill 
+    March 2021 - December 2021\\
+    Software Design and Implementation
+\end{description}
+\begin{itemize*}
+\item Used console applications to publish course assignments within a tight schedule
+\item Resolved dozens of special case problems with student homework submissions per week
+\item Managed organization for grading assignments for a class of nearly three hundred students
+\item Graded 15-30 students each week as part of my normal TA duties
+\item Held Office Hours and helped teach supplemental sections for students to
+    broaden the understanding
+\end{itemize*}
+\vspace{10pt}
+
+\begin{description}[leftmargin=!,
+                    labelwidth=\widthof{\bfseries Grader}]
+\item[Grader] University of Washington \hfill
+    September 2020 - March 2021\\
+    Advanced Linear Algebra
+\end{description}
+\begin{itemize*}
+\item Graded 2-3 problems on an assignment each week in a class of over 100 students
+\item Designed rubrics for grading based off solutions and notes from the Instructor
+\item Gave feedback on proofs written by students, with varying strictness per problem
+\end{itemize*}
+\vspace{10pt}
+
+\begin{description}[leftmargin=!,
+                    labelwidth=\widthof{\bfseries Internationally Certified Tutor}]
+
+\item[Internationally Certified Tutor] Tacoma Community College \hfill
+    July 2018 – August 2019\\
+    Math and Computer Science \hfill Level 2 Certification
+\end{description}
+
+\begin{itemize*}
+\item Worked as a tutor in two different learning centers to help
+      with all Math and Computer Science classes offered
+\item Helped study groups and individual students in one center on an on-call basis
+\item Took scheduled sessions at another center where students could have a
+      longer session to work on their problems
+\item Used leading questions when helping students to give them the tools to
+      solve similar problems on their own
+\end{itemize*}
+\vspace{10pt}
+
+\begin{description}[leftmargin=!,
+                    labelwidth=\widthof{\bfseries Supplementary Instruction Leader}]
+
+\item[Supplementary Instruction Leader] Tacoma Community College \hfill
+    March 2019 – August 2019\\
+    Computer Science
+\end{description}
+\begin{itemize*}
+\item Worked with students in-class to help with activities and questions about
+      Java and general programming concepts
+\item Designed lesson plans for supplemental instruction that
+      encouraged collaborative learning and critical thinking
+\item Included fun and interesting activities to keep students engaged in the material
+\end{itemize*}
+
+\section*{Education History}
+\end{document}
